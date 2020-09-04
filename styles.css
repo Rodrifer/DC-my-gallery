@@ -65,7 +65,7 @@ body {
     font-size: var(--fs-body);
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 1rem;
+    padding-top: 2rem;
     color: var(--black-1);
     background-color: #FFFFFF;
     min-height: 100vh;
@@ -163,4 +163,35 @@ body {
     margin-top: 3rem;
     margin-bottom: 2rem;
     color: var(--gray-3);
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 3rem;
+    }
+
+    .header__photo {
+        width: 156px;
+        height: 156px;
+    }
+
+    .header__name {
+        font-size: 1.3rem;
+    }
+
+    .header__origin {
+        font-size: 1rem;
+    }
+
+    .numbers {
+        font-size: 1rem;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .photos {
+        grid-gap: 1.5rem;
+    }
 }
